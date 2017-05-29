@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    background: #ddd;
+    font-family: Ubuntu, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1c83eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 5px 5px;
+}
+
+.title {
+    color: #444;
+    font-size: 20px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    margin: 3px 0 0;
+}
+
+.title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select {
+    vertical-align: top;
+    line-height: 26px;
+    height: 26px;
+}
+
+select {
+    padding-left: 0.4em;
+}
+
+#status {
+    font-family: monospace;
+    color: #333;
+    margin: 1em 0;
+}
+
+#stage {
+    display: block;
+    width: 400px;
+    height: 400px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: black 3px solid;
+}
+
+.hide {
+    display: none;
+    visibility: collapse;
+}
